@@ -1,0 +1,32 @@
+@keyframes slideright
+{
+    from{
+        background-position: 70000%;
+    }
+    to
+    {
+        background-position: 0%;
+    }
+}
+#desert{
+    position: absolute;
+    background-image: url("banner-1544x500.png");
+    height: 500px;
+    width: 1250px;
+    animation: slideright 600s infinite linear;
+    bottom: 0;
+}
+.dino{
+    background-image: url("dino-removebg-preview-1.png");
+    height: 156px;
+    width: 150px;
+    position:relative;
+    top: 90px;
+}
+.obstacle{
+    background-image: url('cactus-removebg-preview-3.png');
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 130px;
+}
